@@ -1,12 +1,13 @@
 body
 
-{background-image: url("Universe.jpg");}
+{background-image: url("Universe.jpg");
+}
 
 H1 {color: #916ee9; font-family: andale mono, monospace;}
 
 p {color: #f5c4e0; font-family: andale mono, monospace;}
 
-p2 {color: #75a9f3; font-family: andale mono, monospace;}
+p2 {color: lavender; font-family: andale mono, monospace;}
 
 i {color: #eb75f3;}
 
@@ -14,4 +15,23 @@ b {color: #f11c26;}
 
 .high1  {background: rgb(231, 192, 255);}
 
-#mypic {width: 400px;}
+#banner {width:800px;
+height:250px;}
+
+#mypic {width: 200px;}
+
+.spacetime {
+display: flex;
+gap: 25px;
+}
+
+.hidden {
+    background: lavender;
+    padding: 20px;
+    width: 800px;
+
+}
+
+.hidden:hover{
+    background: rgb(1, 1, 1);
+}

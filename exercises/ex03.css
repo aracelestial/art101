@@ -22,11 +22,6 @@
     background: pink;
 }
 
-h1,
-h2,
-{
-text-decoration: underline;
-}
 
 #house {
     display: flex;
