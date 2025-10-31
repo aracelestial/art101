@@ -6,7 +6,7 @@ var colors = ["Orchid", "Coral", "HotPink", "Plum"];
 function makeImage (imageName) {
 
  if (colors[colorCount] == imageName) {
-       $("#images").append("<img width=50 src='images/" + imageName + ".png'>")}
+       $("#images").append("<img width=50 src='+ imageName + ".png'>")}
 };
 
 
