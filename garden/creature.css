@@ -1,0 +1,30 @@
+
+body {
+  background-color: rgb(115, 170, 188);
+}
+
+#creature-form {
+    background: #d4ea2a;
+    padding: 20px;
+    margin: 50px;
+}
+
+#creature-form DIV {
+    margin-bottom: 20px;
+}
+
+#creature-list {
+    background: rgb(102, 227, 171);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 50px;
+}
+
+#creature-list>div {
+    background: pink;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
