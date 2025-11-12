@@ -1,0 +1,39 @@
+BODY { 
+    background: #fbd9e6; 
+    padding: 50px;
+    color:azure;
+}
+
+h1 {
+    color: #eb3146; 
+    font-family: andale mono, monospace;
+}
+
+b {
+    color: white;
+}
+
+.favorite-list {
+    height: 50px;
+    overflow: hidden;
+    width: 525px;
+    padding: 10px;
+    background: rgb(239, 92, 185);
+    margin: 20px;}
+
+.less {}
+
+.read {
+    height: auto;
+    overflow: visible;
+}
+
+.favorite-list span {
+    cursor: ;
+    color: rgb(231, 203, 243);
+}
+
+.button {
+    position: absolute;
+    margin: 20px;
+}
