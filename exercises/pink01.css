@@ -19,9 +19,7 @@ b {
     width: 525px;
     padding: 10px;
     background: rgb(239, 92, 185);
-    margin: 20px;}
-
-.less {}
+}
 
 .read {
     height: auto;
@@ -33,7 +31,25 @@ b {
     color: rgb(231, 203, 243);
 }
 
-.button {
-    position: absolute;
-    margin: 20px;
+#button {
+    position: relative ;
+    background-color: rgba(248, 159, 189, 0.948);
+    border-radius: 50px;
+    color: rgb(241, 0, 0);
+    padding: 15px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: crosshair;
+}
+
+#button:hover {
+    background-color: #f17bc6;
+    color: rgb(134, 4, 127)
+}
+
+#thinking {
+    color: #eb3146; 
+    font-family: brush script mt, monospace;
+    font-size: 30px
 }
