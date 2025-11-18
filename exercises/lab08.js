@@ -4,7 +4,12 @@ $("#creature").click(function() {
 });
 
 $("#creature").hover(function() {
-  $("#status").text("You’re close... 👀"); },
+  $("#status").text("You're close... 👀"); },
   function() {
   $("#status").text("You left me :(");
+});
+
+$("#creature").dblclick(function() {
+  $("#status").text("You woke me up!! 😳");
+  $("#creature").css("transform", "scale(1.2)");
 });
