@@ -13,3 +13,7 @@ $("#creature").dblclick(function() {
   $("#status").text("You woke me up!! 😳");
   $("#creature").css("transform", "scale(1.2)");
 });
+
+$(document).keydown(function(event) {
+  $("#status").text("You pressed: " + event.key);
+});
